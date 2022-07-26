@@ -1,0 +1,29 @@
+Django?
+: python 기반 웹 프레임워크
+
+flask vs django
+- 마이크로 웹 프레임워크 (작다, 최소한의 기능을 가지고 있음)
+- 추가적인 모듈을 import 해햐함
+- 거의 모든 것이 내장 되어 있는 (프로젝트 사이즈가 크다)
+- 이미 라이브러리가 내장 되어있어 그냥 쓰면 됨.
+
+가상환경에서 장고 설치 및 실행
+
+장고의 구성요소
+manage.py -장고 실행
+
+생성한 프로젝트 이름과 같은 이름으로 하위 폴더가 생성됨
+__init__ 디텍토리가 pyhon 모듈로 인식되게 하는 역할
+asgi, wsgi 서버에서 프로젝트를 가동할 때 사용할 부분
+settings.py 전반적인 설정을 반영
+secret-key
+debug
+allowed_hosts - 주소에[ 대해 장고 접근할 수 잇도록
+installed_apps,middleware 설치된 앱 중에 어떤 것을 실행할 것인가
+root_urlconf = 어떤 모듈 url로 진행할 것인지
+templates = 실해 보이는 화면 들어있는 요소
+wsgi_application - 파이선 상에서 웹서버와 소통하기 위한 어플리케이션
+db - 프로젝트 상에서 다루게 되는 자료를 저장하는 것을 다루는 곳
+auth_password_validators = 관리자 부분에서 비밀번호 관리
+
+urls.py

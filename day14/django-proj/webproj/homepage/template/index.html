@@ -1,0 +1,18 @@
+<!DOCTYPE html> <! html5로 작성된 것을 알림>
+<html>
+    <head>
+    <title>Python django example</title>
+    </head>
+
+    <body>
+        <h1>Title</h1>
+        <p>hi hi hi hi hi</p>
+        <p>{{ my_name }}</p>
+
+        {% for element in my_list %}
+            {% if not element|divisibleby:"2" %}
+                <p>{{element}}</p>
+            {% endif %}
+        {% endfor %}
+    </body>
+</html>
