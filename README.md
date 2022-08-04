@@ -1,8 +1,8 @@
 # Programmers_AI_Mine_Dev_Course
 About 프로그래머스 인공지능 미니 데브코스
 
-day 1 - numpy
-day 2 - pandas
+- day 1 - numpy
+- day 2 - pandas
 day 3 - numpy 실습
 day 4 - matplotlib
 day 5 - python 시각화
